@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.intro {
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+}
+
+.section {
+    margin-bottom: 40px;
+
+}
+
+.section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.section ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.section ul li {
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+.left-section,
+.right-section {
+    width: 48%;
+}
+
+.left-section {
+    float: left;
+    background-color: #e6f0ff;
+    border-radius: 8px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.right-section {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.profile-picture {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+
+    .left-section,
+    .right-section {
+        width: 100%;
+    }
+}
+
+.omar {
+    height: 100vh;
+}
+
+.head {
+    text-align: center;
+    background: #f7f7f7;
+}
